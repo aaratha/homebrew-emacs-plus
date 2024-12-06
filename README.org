@@ -39,6 +39,9 @@ Options are detailed below. I personally used:
 
 To enable transparency, you can use the following in your config: ~(set-frame-parameter nil 'alpha-background 0.5)~ where 0.5 is 50% transparency.
 
+Here's a screenshot of my config:
+[[/images/blur-screenshot]]
+
 ** About
 
 #+begin_html
