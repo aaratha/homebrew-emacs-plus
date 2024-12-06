@@ -1,4 +1,4 @@
-TAP_OWNER = "jaaasonsun"
+TAP_OWNER = "aaratha"
 TAP_REPO = "emacs-plus"
 
 class UrlResolver

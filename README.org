@@ -17,7 +17,27 @@
 #+end_html
 
 ** Transparent Emacs Fork (MacOS)
-This
+
+This fork is based on [[https://github.com/jaaasonSun/homebrew-emacs-plus][jaaasonSun]]'s blur patch to d12frosted's homebrew-emacs-plus formulae.
+I added an existing [[https://github.com/d12frosted/homebrew-emacs-plus/pull/753][SQLite dependency fix]] that was missing from jaaasonSun's fork.
+
+To install, run the commands below:
+#+begin_src bash
+  $ brew tap aaratha/emacs-plus
+  $ brew install emacs-plus@29 [options] # install Emacs 29
+#+end_src
+
+or the following:
+#+begin_src bash
+  $ brew install aaratha/emacs-plus/emacs-plus@29 [options] # install Emacs 29
+#+end_src
+
+Options are detailed below. I personally used:
+#+begin_src bash
+  $ brew install emacs-plus@29 --with-xwidgets --with-modern-alecive-flatwoken-icon --with-native-comp
+#+end_src
+
+To enable transparency, you can use the following in your config: ~(set-frame-parameter nil 'alpha-background 0.5)~ where 0.5 is 50% transparency.
 
 ** About
 
