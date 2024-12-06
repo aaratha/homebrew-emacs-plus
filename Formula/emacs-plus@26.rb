@@ -32,14 +32,9 @@ class EmacsPlusAT26 < EmacsBase
   # Patches
   #
 
-  local_patch "no-frame-refocus-cocoa", sha: "fb5777dc890aa07349f143ae65c2bcf43edad6febfd564b01a2235c5a15fcabd" if build.with? "no-frame-refocus"
+  local_patch "multicolor-fonts", sha: "7597514585c036c01d848b1b2cc073947518522ba6710640b1c027ff47c99ca7"
   local_patch "fix-window-role", sha: "1f8423ea7e6e66c9ac6dd8e37b119972daa1264de00172a24a79a710efcb8130"
-  local_patch "system-appearance", sha: "d6ee159839b38b6af539d7b9bdff231263e451c1fd42eec0d125318c9db8cd92"
-  local_patch "poll", sha: "052eacac5b7bd86b466f9a3d18bff9357f2b97517f463a09e4c51255bdb14648" if build.with? "poll"
-  local_patch "round-undecorated-frame", sha: "7451f80f559840e54e6a052e55d1100778abc55f98f1d0c038a24e25773f2874"
-  local_patch "alpha-background", sha: "922d9c5cd7deebd16773d354150faa8a5e69d998651cb2e956d9ed600232b4bc"
-  local_patch "blur", sha: "f9c94861fc84620d97077c68f42bb2b2b1d25af75cf3a71b87c6ccf32a462f21"
-
+  local_patch "fix-unexec", sha: "a1fcfe8020301733a3846cf85b072b461b66e26d15b0154b978afb7a4ec3346b"
 
   #
   # Install
