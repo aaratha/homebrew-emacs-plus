@@ -4,7 +4,7 @@ class EmacsPlusAT29 < EmacsBase
   init 29
   url "https://ftp.gnu.org/gnu/emacs/emacs-29.4.tar.xz"
   mirror "https://ftpmirror.gnu.org/emacs/emacs-29.4.tar.xz"
-  sha256 "ba897946f94c36600a7e7bb3501d27aa4112d791bfe1445c61ed28550daca235"
+  sha256 "f9c94861fc84620d97077c68f42bb2b2b1d25af75cf3a71b87c6ccf32a462f21"
 
   desc "GNU Emacs text editor"
   homepage "https://www.gnu.org/software/emacs/"
